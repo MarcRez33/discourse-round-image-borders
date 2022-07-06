@@ -35,12 +35,17 @@ topic_thumbnail_list_rounded_corners:
 
 topic_thumnail_grid_rounded_corners:
   type: "enum"
-  default: "no"
+  default: "10px"
   choices:
     - no
     - 10px
     - 20px
   description: 'Also round topic thumbnail grid corners?'
+
+topic_thumnail_masonry_rounded_corners:
+  type: "string"
+  default: "10px"
+  description: 'Change this value to increase or decrease border rounding'
 
 topic_thumbnail_placeholder_bg:
   type: "string"
