@@ -1,7 +1,7 @@
 {
-  "name": "Round Image Borders",
+  "name": "Rounded Image Borders",
   "component": true,
-  "license_url": "https://github.com/MarcRez33/discourse-rounded-image-borders/blob/master/LICENSE",
-  "about_url": "xxx",
+  "license_url": "https://github.com/MarcRez33/discourse-round-image-borders/blob/main/LICENSE",
+  "about_url": "https://meta.discourse.org/t/xxx",
   "authors": "MarcRez33"
 }
