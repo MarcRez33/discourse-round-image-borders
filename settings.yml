@@ -1,29 +1,29 @@
-Image_corner_intensity:
+image_corner_intensity:
   type: "string"
   default: "10px"
   description: 'Change this value to increase or decrease border rounding'
-Image_border_width:
+image_border_width:
   type: "string"
   default: "0px"
   description: 'Add a border e.g. 2px - default OFF = 0px)'
-Image_border_color:
+image_border_color:
   type: "string"
   default: "#9A9A9A"
   description: 'Set the color if you enabled border width'
 
-Onebox_corner_intensity:
+onebox_corner_intensity:
   type: "string"
   default: "10px"
   description: 'Change this value to increase or decrease border rounding'
-Onebox_border_width:
+onebox_border_width:
   type: "string"
   default: ""
   description: 'Change onebox border width e.g. 5px'
-Onebox_border_color:
+onebox_border_color:
   type: "string"
   default: "var(--primary-low)"
   description: 'Change color for onebox borders e.g. #000000'
-Onebox_background_color:
+onebox_background_color:
   type: "string"
   default: "var(--secondary)"
   description: 'Change color for onebox backgound e.g. #000000'

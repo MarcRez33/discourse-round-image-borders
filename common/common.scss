@@ -1,16 +1,16 @@
 // border post images
 
 .cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
-    border-radius: $Image_corner_intensity;
-      border: $Image_border_width solid $Image_border_color;
+    border-radius: $image_corner_intensity;
+      border: $image_border_width solid $image_border_color;
       width: 99%;
 }
 
 // include onebox
 
 aside.onebox {
-    background: $Onebox_background_color;
-    border-color: $Onebox_border_color;
-    border-radius: $Onebox_corner_intensity;
-    border-width: $Onebox_border_width;
+    background: $onebox_background_color;
+    border-color: $onebox_border_color;
+    border-radius: $onebox_corner_intensity;
+    border-width: $onebox_border_width;
 }
