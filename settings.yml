@@ -41,12 +41,12 @@ topic_thumnail_grid_rounded_corners:
     - 10px
   description: 'also round topic thumbnail grid corners?'
 
-  topic_thumbnail_placeholder_bg:
+topic_thumbnail_placeholder_bg:
   type: "string"
   default: "var(--primary-low)"
   description: 'Change color for placeholder background e.g. #000000'
 
-  topic_thumbnail_placeholder_icon:
+topic_thumbnail_placeholder_icon:
   type: "string"
   default: "var(--primary-medium)"
   description: 'Change color for placeholder icon e.g. #000000'
