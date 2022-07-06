@@ -33,11 +33,6 @@ topic_thumbnail_list_rounded_corners:
   default: "10px"
   description: 'Change this value to increase or decrease border rounding'
 
-topic_thumbnail_list_placeholder_bg:
-  type: "string"
-  default: "var(--primary-low)"
-  description: 'Change color for onebox backgound e.g. #000000'
-
 topic_thumnail_grid_rounded_corners:
   type: "enum"
   default: "no"
@@ -45,3 +40,13 @@ topic_thumnail_grid_rounded_corners:
     - no
     - 10px
   description: 'also round topic thumbnail grid corners?'
+
+  topic_thumbnail_placeholder_bg:
+  type: "string"
+  default: "var(--primary-low)"
+  description: 'Change color for placeholder background e.g. #000000'
+
+  topic_thumbnail_placeholder_icon:
+  type: "string"
+  default: "var(--primary-medium)"
+  description: 'Change color for placeholder icon e.g. #000000'
