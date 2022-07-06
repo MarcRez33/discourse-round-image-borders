@@ -48,16 +48,14 @@ aside.onebox {
 }
 
 .topic-thumbnails-list .topic-list-thumbnail .thumbnail-placeholder, .topic-thumbnails-grid .topic-list-thumbnail .thumbnail-placeholder, .topic-thumbnails-masonry .topic-list-thumbnail .thumbnail-placeholder, .topic-thumbnails-minimal .topic-list-thumbnail .thumbnail-placeholder {
-        background: $topic_thumbnail_placeholder_bg;
+    background: $topic_thumbnail_placeholder_bg;
 }
 
 // edit color for grid view topic title bg
 
-.topic-thumbnails-grid .activity, 
-.topic-thumbnails-grid .main-link, 
-.topic-thumbnails-grid .posters, 
-.topic-thumbnails-masonry .activity, 
-.topic-thumbnails-masonry .main-link, 
-.topic-thumbnails-masonry .posters {
-      background-color: $topic_thumbnail_grid_topic_title_bg;
+.topic-thumbnails-grid,
+  .activity,
+  .main-link,
+  .posters {
+    background-color: $topic_thumbnail_grid_topic_title_bg;
 }
