@@ -19,8 +19,16 @@ aside.onebox {
 // topic thumbnails list 
 
 .topic-thumbnails-list .topic-list-thumbnail.landscape .main-thumbnail {
-    border-radius: 10px;
+    border-radius: $topic_thumbnail_list_rounded_corners;
 }
 .topic-thumbnails-list .topic-list-thumbnail {
     background: transparent;
+    border-radius: $topic_thumbnail_list_rounded_corners;
+}
+
+// rounded corners for thumbnail list placeholder
+
+.topic-thumbnails-list .topic-list-thumbnail:after {
+    border-radius: $topic_thumbnail_list_rounded_corners;
+    background: $topic_thumbnail_list_placeholder_bg;
 }
