@@ -39,6 +39,15 @@ blockquote_corner_intensity:
     - 20px
   description: 'Change this value to increase or decrease border rounding on blockquotes'
 
+  blockquote_remove_left_border:
+  type: "enum"
+  default: "/* no */ linear-gradient(90deg, var(--primary-low)0%, var(--blend-primary-secondary-5)100%)"
+  choices:
+    - /* yes */ var(--blend-primary-secondary-5) 
+    - /* no */ linear-gradient(90deg, var(--primary-low)0%, var(--blend-primary-secondary-5)100%) 
+
+  description: 'Change this value to increase or decrease border rounding on blockquotes'
+
 topic_thumbnail_list_rounded_corners:
   type: "string"
   default: "10px"
@@ -52,6 +61,7 @@ topic_thumnail_grid_rounded_corners:
     - 10px
     - 20px
   description: 'Also round topic thumbnail grid corners?'
+
 
 topic_thumnail_masonry_rounded_corners:
   type: "string"

@@ -64,17 +64,21 @@ aside.onebox {
     border-radius: $topic_thumnail_masonry_rounded_corners;
 }
 
-// rounding quote corners
+// rounding blockquote corners
+
 blockquote {
   border-radius: $blockquote_corner_intensity;
+  order-left: $blockquote_remove_left_border;
 }
 
 aside.quote .title {
   border-radius: $blockquote_corner_intensity;
+  border-left: var(--blend-primary-secondary-5);
+
 }
 
 aside.quote {
   border-radius: $blockquote_corner_intensity;
-  background: linear-gradient(90deg, var(--primary-low)0%, var(--blend-primary-secondary-5)100%);
+  background: var(--blend-primary-secondary-5);
     
 }
