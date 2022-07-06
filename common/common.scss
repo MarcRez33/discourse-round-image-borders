@@ -7,5 +7,7 @@
 }
 
 aside.onebox {
+    background: $Onebox_background color;
+    border-color: $Onebox_border_color;
     border-radius: $Onebox_corner_intensity;
 }

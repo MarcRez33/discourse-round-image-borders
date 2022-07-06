@@ -10,7 +10,16 @@ Border_color:
   type: "string"
   default: "#9A9A9A"
   description: 'Set the color if you enabled border width'
+
 Onebox_corner_intensity:
   type: "string"
   default: "10px"
-  description: 'Also round onebox corners?'
+  description: 'Change this value to increase or decrease border rounding'
+Onebox_border_color:
+  type: "string"
+  default: "var(--primary-low)"
+  description: 'Change color for onebox borders e.g. #000000'
+Onebox_background_color:
+  type: "string"
+  default: "var(--secondary)"
+  description: 'Change color for onebox backgound e.g. #000000'
