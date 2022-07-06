@@ -1,3 +1,8 @@
+image_settings enable:
+  type: "bool"
+  default: false
+  description: 'Enable to activate image settings'
+
 image_corner_intensity:
   type: "string"
   default: "10px"
