@@ -40,6 +40,7 @@ topic_thumbnail_list_placeholder_bg:
 
 topic_thumnail_grid_rounded_corners:
   type: "enum"
+  default: "no"
   choices:
     - no
     - 10px
