@@ -41,7 +41,7 @@ blockquote_corner_intensity:
 
 blockquote_remove_left_border:
   type: "bool"
-  defult: false
+  default: false
   description: 'Change this value to increase or decrease border rounding on blockquotes'
 
 topic_thumbnail_list_rounded_corners:
