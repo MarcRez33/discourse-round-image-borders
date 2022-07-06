@@ -39,7 +39,8 @@ topic_thumnail_grid_rounded_corners:
   choices:
     - no
     - 10px
-  description: 'also round topic thumbnail grid corners?'
+    - 20px
+  description: 'Also round topic thumbnail grid corners?'
 
 topic_thumbnail_placeholder_bg:
   type: "string"
