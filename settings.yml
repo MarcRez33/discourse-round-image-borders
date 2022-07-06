@@ -28,6 +28,11 @@ onebox_background_color:
   default: "var(--secondary)"
   description: 'Change color for onebox backgound e.g. #000000'
 
+blockquote_corner_intensity:
+  type: "string"
+  default: "10px"
+  description: 'Change this value to increase or decrease border rounding'
+
 topic_thumbnail_list_rounded_corners:
   type: "string"
   default: "10px"
