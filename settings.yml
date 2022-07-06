@@ -1,4 +1,4 @@
-image_settings enable:
+image_settings_enable:
   type: "bool"
   default: false
   description: 'Enable to activate image settings'
