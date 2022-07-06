@@ -9,7 +9,7 @@ image_border_width:
 image_border_color:
   type: "string"
   default: "#9A9A9A"
-  description: 'Set the color if you enabled border width'
+  description: 'Set the color if you enabled border width e.g. #fff'
 
 onebox_corner_intensity:
   type: "string"
