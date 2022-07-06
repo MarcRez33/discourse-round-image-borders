@@ -50,3 +50,8 @@ topic_thumbnail_placeholder_icon:
   type: "string"
   default: "var(--primary-medium)"
   description: 'Change color for placeholder icon e.g. #000000'
+
+topic_thumbnail_grid_topic_title_bg:
+  type: "string"
+  default: "vvar(--primary-low-rgb"
+  description: 'Change color for placeholder icon e.g. #000000'

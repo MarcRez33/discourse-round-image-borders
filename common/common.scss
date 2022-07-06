@@ -44,3 +44,9 @@ aside.onebox {
     background: $topic_thumbnail_placeholder_bg;
     color: $topic_thumbnail_placeholder_icon;
 }
+
+// edit color for grid view topic title bg
+
+.topic-thumbnails-grid .main-link {
+    background-color: $topic_thumbnail_grid_topic_title_bg;
+}
