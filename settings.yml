@@ -15,6 +15,10 @@ Onebox_corner_intensity:
   type: "string"
   default: "10px"
   description: 'Change this value to increase or decrease border rounding'
+Onebox_border_width:
+  type: "string"
+  default: ""
+  description: 'Change onebox border width e.g. 5px'
 Onebox_border_color:
   type: "string"
   default: "var(--primary-low)"
