@@ -1,0 +1,7 @@
+// Border images
+
+.cooked img:not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
+    border-radius: $Corner_intensity;
+      border: $Border_width solid $Border_color;
+      width: 99%;
+}
