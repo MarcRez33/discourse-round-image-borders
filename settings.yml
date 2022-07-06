@@ -29,9 +29,15 @@ onebox_background_color:
   description: 'Change color for onebox backgound e.g. #000000'
 
 blockquote_corner_intensity:
-  type: "string"
-  default: "15px"
-  description: 'CChange this value to increase or decrease border rounding on blockquotes'
+  type: "enum"
+  default: "9px"
+  choices:
+    - no rounding
+    - 5px 
+    - 9px
+    - 15px
+    - 20px
+  description: 'Change this value to increase or decrease border rounding on blockquotes'
 
 topic_thumbnail_list_rounded_corners:
   type: "string"
@@ -42,7 +48,7 @@ topic_thumnail_grid_rounded_corners:
   type: "enum"
   default: "10px"
   choices:
-    - no
+    - no rounding
     - 10px
     - 20px
   description: 'Also round topic thumbnail grid corners?'
