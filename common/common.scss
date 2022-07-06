@@ -1,4 +1,5 @@
 // rounded borders component
+
 @if $image_settings_enable == 'true' {
 
 // rounding border post images
@@ -11,6 +12,8 @@
   }
 }
 
+@if $onebox_settings_enable == 'true' {
+
 // include onebox
 
 aside.onebox {
@@ -18,7 +21,10 @@ aside.onebox {
     border-color: $onebox_border_color;
     border-radius: $onebox_corner_intensity;
     border-width: $onebox_border_width;
+  }
 }
+
+@if $topic_thumbnail_settings_enable == 'true' {
 
 // topic thumbnails list 
 
@@ -66,7 +72,10 @@ aside.onebox {
 //@supports not (grid-template-rows: masonry)
 .topic-thumbnails-masonry .topic-list-item {
     border-radius: $topic_thumnail_masonry_rounded_corners;
+  }
 }
+
+@if $blockquote_settings_enable == 'true' {
 
 // rounding blockquote corners
 
@@ -81,6 +90,7 @@ aside.quote .title {
 aside.quote {
   border-radius: $blockquote_corner_intensity;
   background: linear-gradient(90deg, var(--primary-low)0%, var(--blend-primary-secondary-5)100%);
+  }
 }
 
 @if $blockquote_remove_left_border == 'true' {

@@ -16,6 +16,10 @@ image_border_color:
   default: "#9A9A9A"
   description: 'Set the color if you enabled border width e.g. #fff'
 
+onebox_settings_enable:
+  type: "bool"
+  default: false
+  description: 'Enable to activate onebox settings'
 onebox_corner_intensity:
   type: "string"
   default: "10px"
@@ -33,6 +37,10 @@ onebox_background_color:
   default: "var(--secondary)"
   description: 'Change color for onebox backgound e.g. #000000'
 
+blockquote_settings_enable:
+  type: "bool"
+  default: false
+  description: 'Enable to activate blockquote settings'
 blockquote_corner_intensity:
   type: "enum"
   default: "9px"
@@ -43,17 +51,19 @@ blockquote_corner_intensity:
     - 15px
     - 20px
   description: 'Change this value to increase or decrease border rounding on blockquotes'
-
 blockquote_remove_left_border:
   type: "bool"
   default: false
   description: 'Enable to remove left border from blockquotes'
 
+topic_thumbnail_settings_enable:
+  type: "bool"
+  default: false
+  description: 'Enable to activate Topic Thumbnail settings'
 topic_thumbnail_list_rounded_corners:
   type: "string"
   default: "10px"
   description: 'Change this value to increase or decrease border rounding'
-
 topic_thumnail_grid_rounded_corners:
   type: "enum"
   default: "10px"
@@ -62,23 +72,18 @@ topic_thumnail_grid_rounded_corners:
     - 10px
     - 20px
   description: 'Also round topic thumbnail grid corners?'
-
-
 topic_thumnail_masonry_rounded_corners:
   type: "string"
   default: "10px"
   description: 'Change this value to increase or decrease border rounding'
-
 topic_thumbnail_placeholder_bg:
   type: "string"
   default: "var(--primary-low-rgb)"
   description: 'Change color for placeholder background e.g. #000000'
-
 topic_thumbnail_placeholder_icon:
   type: "string"
   default: "var(--primary-medium)"
   description: 'Change color for placeholder icon e.g. #000000'
-
 topic_thumbnail_grid_topic_title_bg:
   type: "string"
   default: "var(--primary-low-rgb)"
