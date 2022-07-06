@@ -32,3 +32,8 @@ aside.onebox {
     border-radius: $topic_thumbnail_list_rounded_corners;
     background: $topic_thumbnail_list_placeholder_bg;
 }
+
+// include grid topic thumbnails
+.topic-thumbnails-grid .topic-list-item {
+    border-radius: $topic_thumbnail_list_rounded_corners;
+}
