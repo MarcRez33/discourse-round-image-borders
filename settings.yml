@@ -43,7 +43,7 @@ topic_thumnail_grid_rounded_corners:
 
 topic_thumbnail_placeholder_bg:
   type: "string"
-  default: "var(--primary-low)"
+  default: "var(--primary-low-rgb)"
   description: 'Change color for placeholder background e.g. #000000'
 
 topic_thumbnail_placeholder_icon:
