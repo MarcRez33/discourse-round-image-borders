@@ -45,10 +45,10 @@ aside.onebox {
     color: $topic_thumbnail_placeholder_icon;
 }
 
-.topic-thumbnails-list .topic-list-thumbnail .thumbnail-placeholder, 
-.topic-thumbnails-grid .topic-list-thumbnail .thumbnail-placeholder, 
-.topic-thumbnails-masonry .topic-list-thumbnail .thumbnail-placeholder, 
-.topic-thumbnails-minimal .topic-list-thumbnail .thumbnail-placeholder {
+.topic-thumbnails-list .topic-list-thumbnail .d.icon, 
+.topic-thumbnails-grid .topic-list-thumbnail .d.icon, 
+.topic-thumbnails-masonry .topic-list-thumbnail .d.icon, 
+.topic-thumbnails-minimal .topic-list-thumbnail .d.icon {
     background: $topic_thumbnail_placeholder_bg;
     color: $topic_thumbnail_placeholder_icon;
 }
