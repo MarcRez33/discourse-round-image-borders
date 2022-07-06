@@ -18,10 +18,10 @@ aside.onebox {
 
 // topic thumbnails list
 
-.topic-thumbnails-list .topic-list-thumbnail {
+.topic-thumbnails-list .topic-list-thumbnail.landscape .main-thumbnail {
     background: transparent;
 }
 
-.topic-thumbnails-list img.main.thumbnail {
+.topic-thumbnails-list .topic-list-thumbnail.landscape .main-thumbnail {
     border-radius: 10px;
 }
