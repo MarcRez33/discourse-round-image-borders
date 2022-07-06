@@ -5,8 +5,12 @@ Corner_intensity:
 Border_width:
   type: "string"
   default: "0px"
-  description: 'Add a border e.g. 2px - default off (0px)'
+  description: 'Add a border e.g. 2px - default OFF = 0px)'
 Border_color:
   type: "string"
   default: "#9A9A9A"
   description: 'Set the color if you enabled border width'
+Onebox_corner_intensity:
+  type: "string"
+  default: "10px"
+  description: 'Also round onebox corners?'
