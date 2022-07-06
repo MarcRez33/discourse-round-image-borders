@@ -37,3 +37,10 @@ topic_thumbnail_list_placeholder_bg:
   type: "string"
   default: "var(--primary-low)"
   description: 'Change color for onebox backgound e.g. #000000'
+
+topic_thumnail_grid_rounded_corners:
+  type: "enum"
+  choices:
+    - no
+    - 10px
+  description: 'also round topic thumbnail grid corners?'
