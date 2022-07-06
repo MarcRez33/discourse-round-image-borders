@@ -38,9 +38,12 @@ aside.onebox {
     border-radius: $topic_thumnail_grid_rounded_corners;
 }
 
-// placeholder background and icon
+// topic thumbnails placeholder background and icon
 
-.topic-thumbnails-list .topic-list-thumbnail .thumbnail-placeholder, .topic-thumbnails-grid .topic-list-thumbnail .thumbnail-placeholder, .topic-thumbnails-masonry .topic-list-thumbnail .thumbnail-placeholder, .topic-thumbnails-minimal .topic-list-thumbnail .thumbnail-placeholder {
+.topic-thumbnails-list .topic-list-thumbnail .thumbnail-placeholder, 
+.topic-thumbnails-grid .topic-list-thumbnail .thumbnail-placeholder, 
+.topic-thumbnails-masonry .topic-list-thumbnail .thumbnail-placeholder, 
+.topic-thumbnails-minimal .topic-list-thumbnail .thumbnail-placeholder {
     background: $topic_thumbnail_placeholder_bg;
     color: $topic_thumbnail_placeholder_icon;
 }
