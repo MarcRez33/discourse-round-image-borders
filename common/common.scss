@@ -40,15 +40,15 @@ aside.onebox {
 
 // topic thumbnails placeholder background and icon
 
-.thumbnail-placeholder {
+.d.icon {
     background: $topic_thumbnail_placeholder_bg;
     color: $topic_thumbnail_placeholder_icon;
 }
 
-.topic-thumbnails-list .topic-list-thumbnail .d.icon, 
-.topic-thumbnails-grid .topic-list-thumbnail .d.icon, 
-.topic-thumbnails-masonry .topic-list-thumbnail .d.icon, 
-.topic-thumbnails-minimal .topic-list-thumbnail .d.icon {
+.topic-thumbnails-list .topic-list-thumbnail .d-icon, 
+.topic-thumbnails-grid .topic-list-thumbnail .d-icon, 
+.topic-thumbnails-masonry .topic-list-thumbnail .d-icon, 
+.topic-thumbnails-minimal .topic-list-thumbnail .d-icon {
     background: $topic_thumbnail_placeholder_bg;
     color: $topic_thumbnail_placeholder_icon;
 }
