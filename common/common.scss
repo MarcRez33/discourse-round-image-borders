@@ -79,7 +79,7 @@ aside.quote {
   background: linear-gradient(90deg, var(--primary-low)0%, var(--blend-primary-secondary-5)100%);
 }
 
-@if $hide_user_card_background == 'true' {
+@if $blockquote_remove_left_border == 'true' {
   blockquote {
   border-left: var(--blend-primary-secondary-5);
 } aside.quote .title {
