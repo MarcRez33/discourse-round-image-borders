@@ -65,6 +65,16 @@ aside.onebox {
 }
 
 // rounding quote corners
-//blockquote {
-//  border-radius: $blockquote_corner_intensity;
-//}
+blockquote {
+  border-radius: $blockquote_corner_intensity;
+}
+
+aside.quote .title {
+  border-radius: $blockquote_corner_intensity;
+}
+
+aside.quote {
+  border-radius: $blockquote_corner_intensity;
+  background: linear-gradient(90deg, var(--primary-low)0%, var(--blend-primary-secondary-5)100%);
+    
+}

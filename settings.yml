@@ -14,7 +14,7 @@ image_border_color:
 onebox_corner_intensity:
   type: "string"
   default: "10px"
-  description: 'Change this value to increase or decrease border rounding'
+  description: 'Change this value to increase or decrease border rounding on oneboxes'
 onebox_border_width:
   type: "string"
   default: ""
@@ -28,10 +28,10 @@ onebox_background_color:
   default: "var(--secondary)"
   description: 'Change color for onebox backgound e.g. #000000'
 
-#blockquote_corner_intensity:
-#  type: "string"
-#  default: "10px"
-#  description: 'Change this value to increase or decrease border rounding'
+blockquote_corner_intensity:
+  type: "string"
+  default: "15px"
+  description: 'CChange this value to increase or decrease border rounding on blockquotes'
 
 topic_thumbnail_list_rounded_corners:
   type: "string"
