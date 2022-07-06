@@ -53,5 +53,5 @@ topic_thumbnail_placeholder_icon:
 
 topic_thumbnail_grid_topic_title_bg:
   type: "string"
-  default: "var(--primary-low-rgb"
+  default: "var(--primary-low-rgb)"
   description: 'Change color for grid title bg e.g. #000000'
