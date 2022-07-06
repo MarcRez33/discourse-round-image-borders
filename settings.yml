@@ -43,8 +43,8 @@ blockquote_remove_left_border:
   type: "enum"
   default: "/* no */ linear-gradient(90deg, var(--primary-low)0%, var(--blend-primary-secondary-5)100%)"
   choices:
-    - /* yes */ var(--blend-primary-secondary-5) 
-    - /* no */ linear-gradient(90deg, var(--primary-low)0%, var(--blend-primary-secondary-5)100%) 
+    - /*yes*/ var(--blend-primary-secondary-5) 
+    - /*no*/ linear-gradient(90deg, var(--primary-low)0%, var(--blend-primary-secondary-5)100%) 
     description: 'Change this value to increase or decrease border rounding on blockquotes'
 
 topic_thumbnail_list_rounded_corners:
