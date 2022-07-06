@@ -16,12 +16,11 @@ aside.onebox {
     border-width: $onebox_border_width;
 }
 
-// topic thumbnails list
-
-.topic-thumbnails-list .topic-list-thumbnail:after {
-    background: transparent;
-}
+// topic thumbnails list 
 
 .topic-thumbnails-list .topic-list-thumbnail.landscape .main-thumbnail {
     border-radius: 10px;
+}
+.topic-thumbnails-list .topic-list-thumbnail {
+    background: transparent;
 }
