@@ -15,3 +15,13 @@ aside.onebox {
     border-radius: $onebox_corner_intensity;
     border-width: $onebox_border_width;
 }
+
+// topic thumbnails list
+
+.topic-thumbnails-list .topic-list-thumbnail {
+    background: transparent;
+}
+
+.topic-thumbnails-list img.main.thumbnail {
+    border-radius: 10px;
+}
