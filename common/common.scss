@@ -40,6 +40,11 @@ aside.onebox {
 
 // topic thumbnails placeholder background and icon
 
+.thumbnail-placeholder {
+    background: $topic_thumbnail_placeholder_bg;
+    color: $topic_thumbnail_placeholder_icon;
+}
+
 .topic-thumbnails-list .topic-list-thumbnail .thumbnail-placeholder, 
 .topic-thumbnails-grid .topic-list-thumbnail .thumbnail-placeholder, 
 .topic-thumbnails-masonry .topic-list-thumbnail .thumbnail-placeholder, 
