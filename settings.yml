@@ -1,12 +1,12 @@
-Corner_intensity:
+Image_corner_intensity:
   type: "string"
   default: "10px"
   description: 'Change this value to increase or decrease border rounding'
-Border_width:
+Image_border_width:
   type: "string"
   default: "0px"
   description: 'Add a border e.g. 2px - default OFF = 0px)'
-Border_color:
+Image_border_color:
   type: "string"
   default: "#9A9A9A"
   description: 'Set the color if you enabled border width'
