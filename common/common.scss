@@ -68,17 +68,15 @@ aside.onebox {
 
 blockquote {
   border-radius: $blockquote_corner_intensity;
-  order-left: $blockquote_remove_left_border;
+  border-left: $blockquote_remove_left_border;
 }
 
 aside.quote .title {
   border-radius: $blockquote_corner_intensity;
-  border-left: var(--blend-primary-secondary-5);
-
+  border-left: $blockquote_remove_left_border;
 }
 
 aside.quote {
   border-radius: $blockquote_corner_intensity;
-  background: var(--blend-primary-secondary-5);
-    
+  background: $blockquote_remove_left_border;    
 }
