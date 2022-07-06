@@ -53,6 +53,6 @@ aside.onebox {
 
 // edit color for grid view topic title bg
 
-.topic-thumbnails-grid .activity {
+.topic-thumbnails-grid .activity, .topic-thumbnails-grid .main-link, .topic-thumbnails-grid .posters, .topic-thumbnails-masonry .activity, .topic-thumbnails-masonry .main-link, .topic-thumbnails-masonry .posters {
     background-color: $topic_thumbnail_grid_topic_title_bg !important;
 }
