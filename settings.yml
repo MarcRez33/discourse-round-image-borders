@@ -2,7 +2,6 @@ image_settings_enable:
   type: "bool"
   default: false
   description: 'Enable to activate image settings'
-
 image_corner_intensity:
   type: "string"
   default: "10px"
@@ -46,7 +45,7 @@ blockquote_corner_intensity:
   default: "9px"
   choices:
     - no rounding
-    - 5px 
+    - 5px
     - 9px
     - 15px
     - 20px
@@ -55,6 +54,15 @@ blockquote_remove_left_border:
   type: "bool"
   default: false
   description: 'Enable to remove left border from blockquotes'
+
+staffnotice_settings_enable:
+    type: "bool"
+    default: false
+    description: 'Enable to activate blockquote settings'
+staffnotice_corner_intensity:
+    type: "string"
+    default: "10px"
+    description: 'Change this value to increase or decrease border rounding'
 
 topic_thumbnail_settings_enable:
   type: "bool"

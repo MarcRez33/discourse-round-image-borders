@@ -8,7 +8,7 @@
     border-radius: $image_corner_intensity;
     border: $image_border_width solid $image_border_color;
     //width: auto;
-    max-width: 99%; 
+    max-width: 99%;
   }
 }
 
@@ -26,7 +26,7 @@ aside.onebox {
 
 @if $topic_thumbnail_settings_enable == 'true' {
 
-// topic thumbnails list 
+// topic thumbnails list
 
 .topic-thumbnails-list .topic-list-thumbnail.landscape .main-thumbnail {
     border-radius: $topic_thumbnail_list_rounded_corners;
@@ -50,9 +50,9 @@ aside.onebox {
 
 // topic thumbnails placeholder background and icon
 
-.topic-thumbnails-list .topic-list-thumbnail .d-icon, 
-.topic-thumbnails-grid .topic-list-thumbnail .d-icon, 
-.topic-thumbnails-masonry .topic-list-thumbnail .d-icon, 
+.topic-thumbnails-list .topic-list-thumbnail .d-icon,
+.topic-thumbnails-grid .topic-list-thumbnail .d-icon,
+.topic-thumbnails-masonry .topic-list-thumbnail .d-icon,
 .topic-thumbnails-minimal .topic-list-thumbnail .d-icon {
     color: $topic_thumbnail_placeholder_icon;
 }
@@ -100,5 +100,12 @@ aside.quote {
     border-left: var(--blend-primary-secondary-5);
 } aside.quote {
     background: var(--blend-primary-secondary-5);
+  }
+}
+
+@if $staffnotice_settings_enable == 'true' {
+// staff notice rounded borders
+.moderator .regular>.cooked {
+    border-radius: 10px;
   }
 }
