@@ -10,6 +10,22 @@
     //width: auto;
     max-width: 99%;
   }
+// include gifs
+  .pausable-animated-image>canvas {
+    border-radius: $image_corner_intensity;
+    border: $image_border_width solid $image_border_color;
+}
+.pausable-animated-image>canvas, .pausable-animated-image>.animated-image-overlay {
+    right: 6px;
+}
+element.style {
+    border-radius: $image_corner_intensity;
+    border: $image_border_width solid $image_border_color;
+}
+.cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
+    border-radius: $image_corner_intensity;
+    border: $image_border_width solid $image_border_color;
+  }
 }
 
 @if $onebox_settings_enable == 'true' {
