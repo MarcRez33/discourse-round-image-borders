@@ -59,11 +59,11 @@ blockquote_remove_left_border:
   default: false
   description: 'Enable to remove left border from blockquotes'
 
-staffnotice_settings_enable:
+staff_color_settings_enable:
     type: "bool"
     default: false
     description: 'Enable to activate staff notice settings'
-staffnotice_corner_intensity:
+staff_color_corner_intensity:
     type: "string"
     default: "10px"
     description: 'Change this value to increase or decrease border rounding'

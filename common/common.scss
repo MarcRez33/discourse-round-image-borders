@@ -137,9 +137,9 @@ aside.quote {
   }
 }
 
-@if $staffnotice_settings_enable == 'true' {
+@if $staff_color_settings_enable == 'true' {
 // staff notice rounded borders
 .moderator .regular>.cooked {
-    border-radius: 10px;
+    border-radius: 8px;
   }
 }
