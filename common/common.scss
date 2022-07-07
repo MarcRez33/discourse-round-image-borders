@@ -3,28 +3,38 @@
 @if $image_settings_enable == 'true' {
 
 // rounding border post images
-
 .cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
     border-radius: $image_corner_intensity;
-    border: $image_border_width solid $image_border_color;
     //max-width: 99%;
   }
 // include gifs
 .pausable-animated-image>canvas {
     border-radius: $image_corner_intensity;
-    border: $image_border_width solid $image_border_color;
 }
 element.style {
     border-radius: $image_corner_intensity;
-    border: $image_border_width solid $image_border_color;
 }
 .cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
     border-radius: $image_corner_intensity;
-    border: $image_border_width solid $image_border_color;
   }
 }
 @if $image_border_settings_enable == 'true' {
 
+// adding borders and border color
+.cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
+    border: $image_border_width solid $image_border_color;
+  }
+// include gifs
+.pausable-animated-image>canvas {
+    border: $image_border_width solid $image_border_color;
+}
+element.style {
+    border: $image_border_width solid $image_border_color;
+}
+.cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
+    border: $image_border_width solid $image_border_color;
+  }
+}
 // adjust width for border
 img.animated.manually-paused {
      max-width: 100% !important;
