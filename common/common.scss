@@ -10,7 +10,7 @@
     //max-width: 99%;
   }
 // include gifs
-  .pausable-animated-image>canvas {
+.pausable-animated-image>canvas {
     border-radius: $image_corner_intensity;
     border: $image_border_width solid $image_border_color;
 }
@@ -26,12 +26,14 @@ element.style {
 @if $image_border_settings_enable == 'true' {
 
 // adjust width for border
-
+img:animated.manually-paused {
+  max-width: 100% !important;
+ }
 .cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
     max-width: 99%;
   }
 .pausable-animated-image>canvas, .pausable-animated-image>.animated-image-overlay {
-      right: 6px;
+    //right: 6px;
   }
 }
 
