@@ -6,6 +6,10 @@ image_corner_intensity:
   type: "string"
   default: "10px"
   description: 'Change this value to increase or decrease border rounding'
+image_border_settings_enable:
+    type: "bool"
+    default: false
+    description: 'Enable to activate image border settings'
 image_border_width:
   type: "string"
   default: "0px"

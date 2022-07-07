@@ -7,8 +7,7 @@
 .cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
     border-radius: $image_corner_intensity;
     border: $image_border_width solid $image_border_color;
-    //width: auto;
-    max-width: 99%;
+    //max-width: 99%;
   }
 // include gifs
   .pausable-animated-image>canvas {
@@ -25,6 +24,14 @@ element.style {
 .cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
     border-radius: $image_corner_intensity;
     border: $image_border_width solid $image_border_color;
+  }
+}
+@if $image_border_settings_enable == 'true' {
+
+// adjust width for border
+
+.cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
+    max-width: 99%;
   }
 }
 
