@@ -68,6 +68,11 @@ staff_color_corner_intensity:
     default: "10px"
     description: 'Change this value to increase or decrease border rounding'
 
+category_badge_corner_sensitivity:
+    type: "string"
+    default: "0px"
+    description: 'Change this value to increase or decrease category badges rounding'
+
 topic_thumbnail_settings_enable:
   type: "bool"
   default: false
