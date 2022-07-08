@@ -143,7 +143,6 @@ aside.quote {
     border-radius: 8px;
   }
 }
-@if $category_badge_corner_sensitivity == 'true' {
 
 // round category badges
 span.badge-category-bg {
@@ -152,5 +151,4 @@ span.badge-category-bg {
 
 span.badge-category-parent-bg {
     border-radius: $category_badge_corner_sensitivity;
-}
 }
