@@ -62,7 +62,7 @@ blockquote_remove_left_border:
 staff_color_settings_enabled:
   type: "bool"
   default: false
-  description: 'Enable to activate staff notice settings'
+  description: 'Enable to activate staff color settings'
 staff_color_corner_intensity:
   type: "string"
   default: "10px"
