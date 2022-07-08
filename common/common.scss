@@ -159,19 +159,20 @@ span.badge-category-parent-bg {
 .nav-pills>li a.active {
     border-radius: $top_button_corner_intensity;
 }
-
 .nav-pills>li>a {
   border-radius: $top_button_corner_intensity;
 }
-
 .navigation-controls>* {
     border-radius: $top_button_corner_intensity;
 }
-
 .list-controls .combo-box .combo-box-header {
     border-radius: $top_button_corner_intensity;
 }
 .select-kit.single-select.dropdown-select-box .select-kit-header {
     border-radius: $top_button_corner_intensity;
+  }
 }
+// rounded borders for the banner, no settings
+#banner {
+    border-radius: 10px;
 }
