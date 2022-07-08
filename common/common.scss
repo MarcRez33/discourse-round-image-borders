@@ -147,10 +147,10 @@ aside.quote {
 
 // round category badges
 span.badge-category-bg {
-    border-radius: 5px;
+    border-radius: $category_badge_corner_sensitivity;
 }
 
 span.badge-category-parent-bg {
-    border-radius: 5px;
+    border-radius: $category_badge_corner_sensitivity;
 }
 }
