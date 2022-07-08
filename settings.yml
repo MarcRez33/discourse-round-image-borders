@@ -1,4 +1,4 @@
-image_settings_enable:
+image_settings_enabled:
   type: "bool"
   default: false
   description: 'Enable to activate image settings'
@@ -6,10 +6,10 @@ image_corner_intensity:
   type: "string"
   default: "10px"
   description: 'Change this value to increase or decrease border rounding'
-image_border_settings_enable:
-    type: "bool"
-    default: false
-    description: 'Enable to activate image border settings'
+image_border_settings_enabled:
+  type: "bool"
+  default: false
+  description: 'Enable to activate image border settings'
 image_border_width:
   type: "string"
   default: "0px"
@@ -19,7 +19,7 @@ image_border_color:
   default: "#9A9A9A"
   description: 'Set the color if you enabled border width e.g. #fff'
 
-onebox_settings_enable:
+onebox_settings_enabled:
   type: "bool"
   default: false
   description: 'Enable to activate onebox settings'
@@ -40,7 +40,7 @@ onebox_background_color:
   default: "var(--secondary)"
   description: 'Change color for onebox backgound e.g. #000000'
 
-blockquote_settings_enable:
+blockquote_settings_enabled:
   type: "bool"
   default: false
   description: 'Enable to activate blockquote settings'
@@ -59,21 +59,30 @@ blockquote_remove_left_border:
   default: false
   description: 'Enable to remove left border from blockquotes'
 
-staff_color_settings_enable:
-    type: "bool"
-    default: false
-    description: 'Enable to activate staff notice settings'
+staff_color_settings_enabled:
+  type: "bool"
+  default: false
+  description: 'Enable to activate staff notice settings'
 staff_color_corner_intensity:
-    type: "string"
-    default: "10px"
-    description: 'Change this value to increase or decrease border rounding'
+  type: "string"
+  default: "10px"
+  description: 'Change this value to increase or decrease border rounding'
 
-category_style_box_corner_sensitivity:
-    type: "string"
-    default: "0px"
-    description: 'Change this value to increase or decrease category badges rounding'
+top_button_settings_enabled:
+  type: "bool"
+  default: false
+  description: 'Enable to activate top button rounded corners settings'
+top_button_corner_intensity:
+  type: "string"
+  default: "0px"
+  description: 'Change this value set category badges rounding'
 
-topic_thumbnail_settings_enable:
+category_style_box_corner_intensity:
+  type: "string"
+  default: "0px"
+  description: 'Change this value to increase or decrease category badges rounding'
+
+topic_thumbnail_settings_enabled:
   type: "bool"
   default: false
   description: 'Enable to activate Topic Thumbnail settings'

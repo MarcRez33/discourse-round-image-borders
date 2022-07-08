@@ -1,6 +1,6 @@
 // rounded borders component
 
-@if $image_settings_enable == 'true' {
+@if $image_settings_enabled == 'true' {
 
 // rounding border post images
 .cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
@@ -18,7 +18,7 @@ element.style {
     border-radius: $image_corner_intensity;
   }
 }
-@if $image_border_settings_enable == 'true' {
+@if $image_border_settings_enabled == 'true' {
 
 // adding borders and border color
 .cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
@@ -46,7 +46,7 @@ img.animated.manually-paused {
   }
 }
 
-@if $onebox_settings_enable == 'true' {
+@if $onebox_settings_enabled == 'true' {
 
 // include onebox
 
@@ -58,7 +58,7 @@ aside.onebox {
   }
 }
 
-@if $topic_thumbnail_settings_enable == 'true' {
+@if $topic_thumbnail_settings_enabled == 'true' {
 
 // topic thumbnails list
 
@@ -109,7 +109,7 @@ aside.onebox {
   }
 }
 
-@if $blockquote_settings_enable == 'true' {
+@if $blockquote_settings_enabled == 'true' {
 
 // rounding blockquote corners
 
@@ -137,7 +137,7 @@ aside.quote {
   }
 }
 
-@if $staff_color_settings_enable == 'true' {
+@if $staff_color_settings_enabled == 'true' {
 // staff notice rounded borders
 .moderator .regular>.cooked {
     border-radius: 8px;
@@ -146,9 +146,29 @@ aside.quote {
 
 // round category badges
 span.badge-category-bg {
-    border-radius: $category_badge_corner_sensitivity;
+    border-radius: $category_style_box_corner_intensity;
 }
 
 span.badge-category-parent-bg {
-    border-radius: $category_badge_corner_sensitivity;
+    border-radius: $category_style_box_corner_intensity;
+}
+
+
+// top buttons rounded corners
+@if $top_button_settings_enabled == 'true' {
+.nav-pills>li a.active {
+    border-radius: $top_button_corner_intensity;
+}
+
+.nav-pills>li a.active {
+    border-radius: $top_button_corner_intensity;
+}
+
+.navigation-controls>* {
+    border-radius: $top_button_corner_intensity;
+}
+
+.list-controls .combo-box .combo-box-header {
+    border-radius: $top_button_corner_intensity;
+}
 }
