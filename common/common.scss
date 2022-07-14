@@ -115,6 +115,8 @@ aside.onebox {
 
 blockquote {
   border-radius: $blockquote_corner_intensity;
+  border-left: 5px solid var(--primary-high-or-secondary-low);
+  background-color: var(--tertiary-low-or-tertiary-high);
 }
 
 aside.quote .title {
