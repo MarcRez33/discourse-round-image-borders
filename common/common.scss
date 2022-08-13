@@ -1,4 +1,4 @@
-// image size for onebox
+/* image size for onebox
 aside.onebox .onebox-body .aspect-image-full-size {
     margin: 0.5em 0;
     max-height: 100%;
@@ -12,6 +12,8 @@ aside.onebox .onebox-body .aspect-image-full-size:hover {
   width: auto;
   padding-left: 250px;
 }
+*/
+
 // rounded borders component
 
 @if $image_settings_enabled == 'true' {
