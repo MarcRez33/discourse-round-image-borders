@@ -1,3 +1,12 @@
+// image size for onebox
+supports (--custom: property)
+aside.onebox .onebox-body .aspect-image-full-size {
+    margin: 0.5em 0;
+    max-height: 100%;
+    width: calc(500px * var(--aspect-ratio));
+    max-width: 60%;
+}
+
 // rounded borders component
 
 @if $image_settings_enabled == 'true' {
