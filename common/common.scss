@@ -7,6 +7,13 @@ aside.onebox .onebox-body .aspect-image-full-size {
     max-width: 60%;
 }
 
+// original size on hover image
+aside.onebox .onebox-body .aspect-image-full-size:hover { 
+  z-index: 999;
+  width: 200%;
+  padding-left: 250px;
+}
+
 // rounded borders component
 
 @if $image_settings_enabled == 'true' {
