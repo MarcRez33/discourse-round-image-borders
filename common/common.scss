@@ -153,6 +153,12 @@ aside.quote {
   }
 }
 
+// blockquotes color etc
+aside.quote .title,
+blockquote {
+    // border-left: 5px solid var(--tertiary-800);
+}
+
 @if $staff_color_settings_enabled == 'true' {
 // staff notice rounded borders
 .moderator .regular>.cooked {
