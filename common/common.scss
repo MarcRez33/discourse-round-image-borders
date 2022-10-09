@@ -145,11 +145,11 @@ aside.quote {
 
 @if $blockquote_remove_left_border == 'true' {
   blockquote {
-  border-left: var(--blend-primary-secondary-5);
+  // border-left: var(--blend-primary-secondary-5);
 } aside.quote .title {
-    border-left: var(--blend-primary-secondary-5);
+  //  border-left: var(--blend-primary-secondary-5);
 } aside.quote {
-    background: var(--blend-primary-secondary-5);
+  //  background: var(--blend-primary-secondary-5);
   }
 }
 
