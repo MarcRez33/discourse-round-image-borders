@@ -193,16 +193,17 @@ span.badge-category-parent-bg {
 .select-kit.single-select.dropdown-select-box .select-kit-header {
     border-radius: $top_button_corner_intensity;
   }
+    // border radius small buttons?
+.timeline-container .topic-timeline .timeline-footer-controls .reply-to-post {
+    border-radius: $top_button_corner_intensity;
+}
+.btn {
+    border-radius: $top_button_corner_intensity;
+    }
 }
 // rounded borders for the banner, no settings
 #banner {
     border-radius: 10px;
 }
 
-// border radius small buttons?
-.timeline-container .topic-timeline .timeline-footer-controls .reply-to-post {
-  border-radius: 5px;
-}
-.btn {
-  border-radius: 5px;
-}
+
