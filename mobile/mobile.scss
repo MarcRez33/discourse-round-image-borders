@@ -2,6 +2,10 @@
 @if $top_button_settings_enabled == 'true' {
     // top button rounded image_corner
     .list-controls .nav-pills .navigation-toggle {
+        border-radius: $top_button_corner_intensity;
+    }
+
+    .list-controls .nav-pills .navigation-toggle:active {
         border-top-right-radius: $top_button_corner_intensity !important;
         border-top-left-radius: $top_button_corner_intensity !important;
     }
