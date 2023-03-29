@@ -68,10 +68,10 @@ staff_color_corner_intensity:
   default: "10px"
   description: 'Change this value to increase or decrease border rounding'
 
-top_button_settings_enabled:
+button_settings_enabled:
   type: "bool"
   default: false
-  description: 'Enable to activate top button rounded corners settings'
+  description: 'Enable to activate rounded borders for ALL buttons'
 top_button_corner_intensity:
   type: "string"
   default: "0px"

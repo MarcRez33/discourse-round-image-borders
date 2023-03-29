@@ -180,7 +180,7 @@ span.badge-category-parent-bg {
 
 
 // top buttons rounded corners
-@if $top_button_settings_enabled == 'true' {
+@if $button_settings_enabled == 'true' {
 .nav-pills>li a.active {
     border-radius: $top_button_corner_intensity;
   }

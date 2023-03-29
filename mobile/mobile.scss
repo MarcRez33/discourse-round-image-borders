@@ -1,5 +1,5 @@
 // top buttons rounded corners
-@if $top_button_settings_enabled == 'true' {
+@if $button_settings_enabled == 'true' {
     // top button rounded image_corner
     .list-controls .nav-pills .navigation-toggle {
         border-radius: $top_button_corner_intensity;
