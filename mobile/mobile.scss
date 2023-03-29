@@ -5,11 +5,6 @@
         border-radius: $top_button_corner_intensity;
     }
 
-    .list-controls .nav-pills .navigation-toggle:active {
-        border-top-right-radius: $top_button_corner_intensity !important;
-        border-top-left-radius: $top_button_corner_intensity !important;
-    }
-
     .list-controls .btn {
         border-radius: $top_button_corner_intensity;
     }
@@ -21,31 +16,39 @@
     .nav-pills>li a.active {
         border-radius: $top_button_corner_intensity;
     }
+
     .nav-pills>li>a {
       border-radius: $top_button_corner_intensity;
     }
+
     .navigation-controls>* {
         border-radius: $top_button_corner_intensity;
     }
+
     .list-controls .combo-box .combo-box-header {
         border-radius: $top_button_corner_intensity;
     }
+
     .select-kit.single-select.dropdown-select-box .select-kit-header {
         border-radius: $top_button_corner_intensity;
-      }
-        // border radius small buttons?
+    }
+    
+    // border radius small buttons?
     .timeline-container .topic-timeline .timeline-footer-controls .reply-to-post {
         border-radius: $top_button_corner_intensity;
     }
+    
     .btn {
         border-radius: $top_button_corner_intensity !important;
-        }
+    }
+    
     #topic-footer-buttons .select-kit-header {
         border-radius: $top_button_corner_intensity !important;
-        }
+    }
+    
     .list-controls .nav-pills .drop {
         border-bottom-right-radius: $top_button_corner_intensity !important;
         border-bottom-left-radius: $top_button_corner_intensity !important;
         border-top-right-radius: $top_button_corner_intensity !important;
     }
-    }
+}
