@@ -33,6 +33,9 @@
         border-radius: $top_button_corner_intensity;
     }
     .btn {
-        border-radius: $top_button_corner_intensity;
+        border-radius: $top_button_corner_intensity !important;
+        }
+    #topic-footer-buttons .select-kit-header {
+        border-radius: $top_button_corner_intensity !important;
         }
     }
