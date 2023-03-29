@@ -2,7 +2,8 @@
 @if $top_button_settings_enabled == 'true' {
     // top button rounded image_corner
     .list-controls .nav-pills .navigation-toggle {
-        border-radius: $top_button_corner_intensity;
+        border-top-right-radius: $top_button_corner_intensity !important;
+        border-top-left-radius: $top_button_corner_intensity !important;
     }
 
     .list-controls .btn {
@@ -38,4 +39,9 @@
     #topic-footer-buttons .select-kit-header {
         border-radius: $top_button_corner_intensity !important;
         }
+    .list-controls .nav-pills .drop {
+        border-bottom-right-radius: $top_button_corner_intensity !important;
+        border-bottom-left-radius: $top_button_corner_intensity !important;
+        border-top-right-radius: $top_button_corner_intensity !important;
+    }
     }
