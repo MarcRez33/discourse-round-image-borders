@@ -47,8 +47,6 @@
     }
     
     .list-controls .nav-pills .drop {
-        border-bottom-right-radius: $top_button_corner_intensity !important;
-        border-bottom-left-radius: $top_button_corner_intensity !important;
-        border-top-right-radius: $top_button_corner_intensity !important;
+        border-radius: $top_button_corner_intensity !important;
     }
 }
