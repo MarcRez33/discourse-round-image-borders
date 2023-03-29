@@ -201,9 +201,11 @@ span.badge-category-parent-bg {
     border-radius: $top_button_corner_intensity;
 }
 .btn {
-    border-radius: $top_button_corner_intensity;
+    border-radius: $top_button_corner_intensity !important;
     }
 }
+
+
 // rounded borders for the banner, no settings
 #banner {
     border-radius: 10px;
