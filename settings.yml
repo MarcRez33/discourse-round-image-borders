@@ -116,5 +116,5 @@ topic_thumbnail_grid_topic_title_bg:
   description: 'Change color for grid title bg e.g. #000000'
 avatar_rounding_intensity:
   type: "string"
-  default: "25px"
+  default: "50%"
   description: 'decrease avatar rounding'
