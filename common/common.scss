@@ -212,6 +212,6 @@ span.badge-category-parent-bg {
     border-radius: 10px;
 }
 
-img.avatar {
+img.avatar, .d-user-card__avatar img {
   border-radius: $avatar_rounding_intensity;
   }
