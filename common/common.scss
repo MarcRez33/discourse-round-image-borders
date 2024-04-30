@@ -178,8 +178,8 @@ span.badge-category-parent-bg {
     border-radius: $category_style_box_corner_intensity;
 }
 
-
 // buttons rounded corners
+
 @if $button_settings_enabled == 'true' {
 .nav-pills>li a.active {
     border-radius: $button_corner_intensity;
@@ -233,3 +233,7 @@ span.prefix-span {
 #banner {
     border-radius: 10px;
 }
+
+img.avatar, .d-user-card__avatar img {
+  border-radius: $avatar_rounding_intensity !important;
+  }
