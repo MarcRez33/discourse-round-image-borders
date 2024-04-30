@@ -178,32 +178,54 @@ span.badge-category-parent-bg {
     border-radius: $category_style_box_corner_intensity;
 }
 
-// top buttons rounded corners
+// buttons rounded corners
+
 @if $button_settings_enabled == 'true' {
 .nav-pills>li a.active {
-    border-radius: $top_button_corner_intensity;
+    border-radius: $button_corner_intensity;
   }
 .nav-pills>li>a {
-  border-radius: $top_button_corner_intensity;
+  border-radius: $button_corner_intensity;
   }
 .navigation-controls>* {
-    border-radius: $top_button_corner_intensity;
+    border-radius: $button_corner_intensity;
   }
 .list-controls .combo-box .combo-box-header {
-    border-radius: $top_button_corner_intensity;
+    border-radius: $button_corner_intensity;
   }
 .select-kit.single-select.dropdown-select-box .select-kit-header {
-    border-radius: $top_button_corner_intensity;
+    border-radius: $button_corner_intensity;
   }
-    // border radius small buttons?
+// border radius small buttons?
 .timeline-container .topic-timeline .timeline-footer-controls .reply-to-post {
-    border-radius: $top_button_corner_intensity;
+    border-radius: $button_corner_intensity;
   }
 .btn {
-    border-radius: $top_button_corner_intensity !important;
+    border-radius: $button_corner_intensity !important;
     }
 .select-kit.is-expanded .select-kit-body {
-    border-radius: $top_button_corner_intensity !important;
+    border-radius: $button_corner_intensity !important;
+  }
+.alert.alert-info {
+    border-radius: $button_corner_intensity
+  }
+.d-modal.login-modal .d-modal__body, .d-modal.create-account .d-modal__body {
+    border-radius: $button_corner_intensity
+  }
+.d-modal__container {
+    border-radius: $button_corner_intensity
+  }
+// skip rounding /admin/customize/ header buttons
+.admin-customize .themes-list-header .tab {
+    border-radius: 0px !important;
+  }
+// If enabled, add minimal rounding to category dots
+span.prefix-span {
+    border-radius: 2px !important;
+  }
+.badge-category__wrapper 
+.badge-category:before {
+  border-radius: 2px !important;
   }
 }
 

@@ -72,7 +72,7 @@ button_settings_enabled:
   type: "bool"
   default: false
   description: 'Enable to activate rounded borders for ALL buttons'
-top_button_corner_intensity:
+button_corner_intensity:
   type: "string"
   default: "0px"
   description: 'Change this value set category badges rounding'
