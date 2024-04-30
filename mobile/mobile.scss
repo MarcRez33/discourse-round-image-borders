@@ -49,4 +49,9 @@
     .list-controls .nav-pills .drop {
         border-radius: $button_corner_intensity !important;
     }
+    
+    // Not rounding progress wrapper buttons
+    .container.posts #topic-progress-wrapper .topic-admin-menu-button .toggle-admin-menu {
+        border-radius: 0px !important;
+    }
 }
