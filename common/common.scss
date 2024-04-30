@@ -219,6 +219,13 @@ span.badge-category-parent-bg {
 .admin-customize .themes-list-header .tab {
   border-radius: 0px !important;
 }
+// If enabled, add minimal rounding to category dots;
+span.prefix-span {
+  border-radius: 2px !important;
+}
+.badge-category__wrapper .badge-category:before {
+  border-radius: 2px !important;
+}
 }
 
 // rounded borders for the banner, no settings
