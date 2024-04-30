@@ -215,6 +215,10 @@ span.badge-category-parent-bg {
 .d-modal__container {
     border-radius: $button_corner_intensity
   }
+// skip rounding /admin/customize/ header buttons
+.admin-customize .themes-list-header .tab {
+  border-radius: 0px !important;
+}
 }
 
 // rounded borders for the banner, no settings
