@@ -33,7 +33,15 @@ element.style {
 .cooked img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji), .d-editor-preview img:not(.site-icon):not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
     border-radius: $image_corner_intensity;
   }
+.lazy-video-container .video-thumbnail {
+    border-radius: $image_corner_intensity;
 }
+.lazy-video-container .title-container {
+  border-radius: $image_corner_intensity;
+}
+}
+
+
 @if $image_border_settings_enabled == 'true' {
 
 // adding borders and border color
