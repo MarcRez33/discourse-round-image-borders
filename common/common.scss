@@ -37,6 +37,12 @@ element.style {
     border-radius: $image_corner_intensity;
 }
 .lazy-video-container .title-container {
+    border-radius: $image_corner_intensity;
+}
+.lazy-video-container {
+  border-radius: $image_corner_intensity;
+}
+.lazy-video-container .video-thumbnail {
   border-radius: $image_corner_intensity;
 }
 }
