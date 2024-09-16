@@ -1,49 +1,49 @@
 image_settings_enabled:
   type: "bool"
   default: false
-  description: 'Enable to activate image settings'
+  description: "Enable to activate image settings"
 image_corner_intensity:
   type: "string"
   default: "10px"
-  description: 'Change this value to increase or decrease border rounding'
+  description: "Change this value to increase or decrease border rounding"
 image_border_settings_enabled:
   type: "bool"
   default: false
-  description: 'Enable to activate image border settings'
+  description: "Enable to activate image border settings"
 image_border_width:
   type: "string"
   default: "0px"
-  description: 'Add a border e.g. 2px - default OFF = 0px)'
+  description: "Add a border e.g. 2px - default OFF = 0px)"
 image_border_color:
   type: "string"
   default: "#9A9A9A"
-  description: 'Set the color if you enabled border width e.g. #fff'
+  description: "Set the color if you enabled border width e.g. #fff"
 
 onebox_settings_enabled:
   type: "bool"
   default: false
-  description: 'Enable to activate onebox settings'
+  description: "Enable to activate onebox settings"
 onebox_corner_intensity:
   type: "string"
   default: "10px"
-  description: 'Change this value to increase or decrease border rounding on oneboxes'
+  description: "Change this value to increase or decrease border rounding on oneboxes"
 onebox_border_width:
   type: "string"
   default: ""
-  description: 'Change onebox border width e.g. 5px'
+  description: "Change onebox border width e.g. 5px"
 onebox_border_color:
   type: "string"
   default: "var(--primary-low)"
-  description: 'Change color for onebox borders e.g. #000000'
+  description: "Change color for onebox borders e.g. #000000"
 onebox_background_color:
   type: "string"
   default: "var(--secondary)"
-  description: 'Change color for onebox backgound e.g. #000000'
+  description: "Change color for onebox backgound e.g. #000000"
 
 blockquote_settings_enabled:
   type: "bool"
   default: false
-  description: 'Enable to activate blockquote settings'
+  description: "Enable to activate blockquote settings"
 blockquote_corner_intensity:
   type: "enum"
   default: "9px"
@@ -53,43 +53,43 @@ blockquote_corner_intensity:
     - 9px
     - 15px
     - 20px
-  description: 'Change this value to increase or decrease border rounding on blockquotes'
+  description: "Change this value to increase or decrease border rounding on blockquotes"
 blockquote_remove_left_border:
   type: "bool"
   default: false
-  description: 'Enable to remove left border from blockquotes'
+  description: "Enable to remove left border from blockquotes"
 
 staff_color_settings_enabled:
   type: "bool"
   default: false
-  description: 'Enable to activate staff color settings'
+  description: "Enable to activate staff color settings"
 staff_color_corner_intensity:
   type: "string"
   default: "10px"
-  description: 'Change this value to increase or decrease border rounding'
+  description: "Change this value to increase or decrease border rounding"
 
 button_settings_enabled:
   type: "bool"
   default: false
-  description: 'Enable to activate rounded borders for ALL buttons'
+  description: "Enable to activate rounded borders for ALL buttons - enabling this will change many other elements to match with the buttons. Refer to the source code for details."
 button_corner_intensity:
   type: "string"
   default: "0px"
-  description: 'Change this value set category badges rounding'
+  description: "Change this value set category badges rounding"
 
 category_style_box_corner_intensity:
   type: "string"
   default: "0px"
-  description: 'Change this value to increase or decrease category badges rounding'
+  description: "Change this value to increase or decrease category badges rounding"
 
 topic_thumbnail_settings_enabled:
   type: "bool"
   default: false
-  description: 'Enable to activate Topic Thumbnail settings'
+  description: "Enable to activate Topic Thumbnail settings"
 topic_thumbnail_list_rounded_corners:
   type: "string"
   default: "10px"
-  description: 'Change this value to increase or decrease border rounding'
+  description: "Change this value to increase or decrease border rounding"
 topic_thumnail_grid_rounded_corners:
   type: "enum"
   default: "10px"
@@ -97,24 +97,24 @@ topic_thumnail_grid_rounded_corners:
     - no rounding
     - 10px
     - 20px
-  description: 'Also round topic thumbnail grid corners?'
+  description: "Also round topic thumbnail grid corners?"
 topic_thumnail_masonry_rounded_corners:
   type: "string"
   default: "10px"
-  description: 'Change this value to increase or decrease border rounding'
+  description: "Change this value to increase or decrease border rounding"
 topic_thumbnail_placeholder_bg:
   type: "string"
   default: "var(--primary-low-rgb)"
-  description: 'Change color for placeholder background e.g. #000000'
+  description: "Change color for placeholder background e.g. #000000"
 topic_thumbnail_placeholder_icon:
   type: "string"
   default: "var(--primary-medium)"
-  description: 'Change color for placeholder icon e.g. #000000'
+  description: "Change color for placeholder icon e.g. #000000"
 topic_thumbnail_grid_topic_title_bg:
   type: "string"
   default: "var(--primary-low-rgb)"
-  description: 'Change color for grid title bg e.g. #000000'
+  description: "Change color for grid title bg e.g. #000000"
 avatar_rounding_intensity:
   type: "string"
   default: "50%"
-  description: 'decrease avatar rounding'
+  description: "decrease avatar rounding"
