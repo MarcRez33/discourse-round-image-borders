@@ -107,6 +107,9 @@ aside.onebox {
 }
 
 // include grid topic thumbnails
+.topic-list-thumbnail.has-thumbnail.landscape {
+  border-radius: $topic_thumnail_grid_rounded_corners;
+}
 
 .topic-thumbnails-grid .topic-list-item {
     border-radius: $topic_thumnail_grid_rounded_corners;
