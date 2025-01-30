@@ -168,6 +168,10 @@ aside.onebox .onebox-body .aspect-image-full-size:hover {
   .topic-thumbnails-masonry .topic-list-item {
     border-radius: $topic_thumnail_masonry_rounded_corners;
   }
+
+  .topic-thumbnails-masonry .topic-list-thumbnail {
+    border-radius: 10px;
+  }
 }
 
 @if $blockquote_settings_enabled =='true' {
